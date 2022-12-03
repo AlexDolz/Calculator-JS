@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="block">
+        <input class="input" disabled />
+        <div class="buttons">
+          <div class="row">
+            <div class="number js-number" data-number="7">7</div>
+            <div class="number js-number" data-number="8">8</div>
+            <div class="number js-number" data-number="9">9</div>
+            <div class="number js-number" data-number=" / ">/</div>
+          </div>
+          <div class="row">
+            <div class="number js-number" data-number="4">4</div>
+            <div class="number js-number" data-number="5">5</div>
+            <div class="number js-number" data-number="6">6</div>
+            <div class="number js-number" data-number=" * ">*</div>
+          </div>
+          <div class="row">
+            <div class="number js-number" data-number="1">1</div>
+            <div class="number js-number" data-number="2">2</div>
+            <div class="number js-number" data-number="3">3</div>
+            <div class="number js-number" data-number=" - ">-</div>
+          </div>
+          <div class="row">
+            <div class="number js-number" data-number="0">0</div>
+            <div class="number js-number" data-number=".">.</div>
+            <div class="number result" data-number="=">=</div>
+            <div class="number js-number" data-number=" + ">+</div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="number js-clear">Clear</div>
+          <div class="number js-backspace">BACKSPACE</div>
+        </div>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>

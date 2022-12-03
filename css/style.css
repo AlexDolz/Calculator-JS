@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Bebas Neue', cursive;
+}
+
+html {
+  background: #229ad7;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(34, 156, 219, 1) 0%,
+    rgba(10, 114, 187, 1) 100%
+  );
+  background-attachment: fixed;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  background-color: #fffbd5;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 375px;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.input {
+  background-color: black;
+  border: 10px solid #fffbd5;
+  border-left: 8px solid #fffbd5;
+  border-right: 8px solid #fffbd5;
+  color: white;
+  height: 140px;
+  border-radius: 20px;
+  font-size: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 0;
+  box-shadow: none;
+  text-align: right;
+}
+
+.buttons {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.number {
+  width: 70px;
+  transition: all 0.2s ease-out;
+  height: 63px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.number:hover {
+  background-color: rgba(0, 0, 0, 0.177);
+}
+.number:active {
+  background-color: black;
+  color: white;
+  font-size: 34px;
+}
+
+.footer {
+  height: 75px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.js-clear,
+.js-backspace {
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 22px;
+}
+
+.js-clear:active,
+.js-backspace:active {
+  font-size: 28px;
+}
