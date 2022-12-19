@@ -133,7 +133,7 @@ html {
     margin: 5px;
   }
 }
-@media screen and (orientation: landscape) {
+@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
   .block {
     height: 330px;
     width: 540px;
