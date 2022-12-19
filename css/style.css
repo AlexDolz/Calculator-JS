@@ -109,7 +109,7 @@ html {
   font-size: 28px;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .block {
     min-width: 300px;
     margin: 0 10px;
