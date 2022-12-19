@@ -118,4 +118,21 @@ html {
     min-width: 60px;
     margin: 5px;
   }
-} ;
+}
+@media screen and (min-height: 320px) and (max-height: 500px) {
+  .block {
+    height: 350px;
+    width: 615px;
+  }
+  .number {
+    width: 135px;
+    height: 44px;
+    margin: 0 0 12px 0;
+  }
+  .js-clear {
+    width: 255px;
+  }
+  .js-backspace {
+    width: 255px;
+  }
+}
