@@ -131,6 +131,7 @@ html {
   .number {
     min-width: 60px;
     margin: 5px;
+    transition: none;
   }
 }
 @media (orientation: landscape) and (hover: none) and (pointer: coarse) {
@@ -142,6 +143,7 @@ html {
     width: 110px;
     height: 38px;
     margin: 0 0 14px 0;
+    transition: none;
   }
   .js-clear {
     width: 255px;
