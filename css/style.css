@@ -108,3 +108,14 @@ html {
 .js-backspace:active {
   font-size: 28px;
 }
+
+@media screen and (orientation: portrait) {
+  .block {
+    min-width: 300px;
+    margin: 0 10px;
+  }
+  .number {
+    min-width: 60px;
+    margin: 5px;
+  }
+} ;
