@@ -33,7 +33,7 @@ result.addEventListener('click', function () {
     inputValue = 5;
   }
 
-  inputValue = '';
+  inputValue = input.value;
 
   if (input.value == 'Infinity' || input.value == '-Infinity') {
     input.value = 'Error';
