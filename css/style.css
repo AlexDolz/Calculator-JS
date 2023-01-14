@@ -134,7 +134,7 @@ html {
     transition: none;
   }
 }
-@media (orientation: landscape) and (hover: none) and (pointer: coarse) {
+@media (orientation: landscape) and (any-pointer: coarse) {
   .block {
     height: 330px;
     width: 540px;
